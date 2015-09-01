@@ -15,7 +15,7 @@ There's `Copy Files` - `Build Phase`, which automatically copies plugin to `Plug
 
 ## Warning
 
-As I wrote, it's a quick hack. It forces *all* attributed strings to use ligatures. If your Xcode
+As I wrote, it's a quick hack. It forces **all** attributed strings to use ligatures. If your Xcode
 behaves weirdly, just delete it.
 
 ## Written by
