@@ -8,9 +8,15 @@ Quick hack to enable ligatures in Xcode.
 ## Installation
 
 * open project file,
-* build.
+* build,
+* restart Xcode.
 
 There's `Copy Files` - `Build Phase`, which automatically copies plugin to `Plug-ins` directory.
+
+## Warning
+
+As I wrote, it's a quick hack. It forces *all* attributed strings to use ligatures. If your Xcode
+behaves weirdly, just delete it.
 
 ## Written by
 
