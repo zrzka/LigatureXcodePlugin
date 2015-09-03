@@ -13,13 +13,13 @@
 @implementation LigatureXcodePlugin
 
 //
-// Ligatures
+// PragmataPro Ligatures Showcase
+// Ligatures list source: http://www.fsd.it/fonts/pragmatapro/PragmataPro_Haskell_liga.png
 //
-// <-  --  ->
-// ==  !=  !==
-// <=  >=  =>
-// ::
-// ++  +=  -= --
+// !! != !== $> *** *= */ ++ +++ += +> -- -< -<< -= -> ->> .. ... ..< /* // /= /== />
+// :: := <$> <$ <* <| <*> <+> <- << <<- <<< <<= <<~ <= <=> <=< <> <|> <~ <~~ <+ |>
+// s=<< ==> => =~ =>> >- >= >=> >> >>- >>= >>> ?? ?~ ?= ^= ^. ^.. ^? |= || |||
+// ~= ~> ~~> ~>> .~ .= #( #_ #{ %= &% && &&& &* &+ &- &/ &=
 //
 
 + (void)replaceAttributesAtLongestEffectiveRangeInRageForClass:(Class)clazz {
