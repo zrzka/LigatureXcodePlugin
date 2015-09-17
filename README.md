@@ -1,9 +1,12 @@
 Quick hack to enable ligatures in the Xcode source code editor.
 
-It forces **all** attributed strings to use ligatures, which is not a good solution. This needs
-to be fixed. Currently under investigation. Trying to find exact place where Xcode sets
-`NSLigatureAttributeName` to `@0`. Will be replaced with `@1` for the source code editor
-without affecting all other attributed strings.
+## Description
+
+It forces all `DVTTextStorage` objects to use plug-in ligature settings. Not the best solution
+so far, but much better compared to the previous `NSAttributedString` modifications.
+
+I did find where Xcode sets `NSLigatureAttributeName` value to `0`. Tried to modify it, but
+it didn't work. There must be another place where it's done.
 
 Feel free to file an [issue](https://github.com/robertvojta/LigatureXcodePlugin/issues/new) if
 Xcode doesn't behave as expected.
