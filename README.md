@@ -13,7 +13,7 @@ Xcode doesn't behave as expected.
 
 ## Requirements
 
-- OS X El Capitan
+- OS X Yosemite or El Capitan
 - Xcode 7.0
 
 ## Installation
