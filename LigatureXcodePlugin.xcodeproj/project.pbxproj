@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF1A8F801BAA9C5100E51245 /* LPXcodeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1A8F7F1BAA9C5100E51245 /* LPXcodeUtils.m */; settings = {ASSET_TAGS = (); }; };
 		BFD6F66B1B95868B003BD02A /* LigatureXcodePlugin.xcplugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = BFD6F6611B95847A003BD02A /* LigatureXcodePlugin.xcplugin */; };
 		BFD6F66E1B9586B2003BD02A /* LigatureXcodePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD6F66D1B9586B2003BD02A /* LigatureXcodePlugin.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -25,6 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BF1A8F7E1BAA9C5100E51245 /* LPXcodeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPXcodeUtils.h; sourceTree = "<group>"; };
+		BF1A8F7F1BAA9C5100E51245 /* LPXcodeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPXcodeUtils.m; sourceTree = "<group>"; };
+		BF1A8F811BAA9D4600E51245 /* LPXcodeHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPXcodeHeaders.h; sourceTree = "<group>"; };
 		BFD6F6611B95847A003BD02A /* LigatureXcodePlugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LigatureXcodePlugin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD6F6641B95847A003BD02A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFD6F66C1B9586B2003BD02A /* LigatureXcodePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LigatureXcodePlugin.h; sourceTree = "<group>"; };
@@ -64,6 +68,9 @@
 				BFD6F6641B95847A003BD02A /* Info.plist */,
 				BFD6F66C1B9586B2003BD02A /* LigatureXcodePlugin.h */,
 				BFD6F66D1B9586B2003BD02A /* LigatureXcodePlugin.m */,
+				BF1A8F7E1BAA9C5100E51245 /* LPXcodeUtils.h */,
+				BF1A8F7F1BAA9C5100E51245 /* LPXcodeUtils.m */,
+				BF1A8F811BAA9D4600E51245 /* LPXcodeHeaders.h */,
 			);
 			path = LigatureXcodePlugin;
 			sourceTree = "<group>";
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFD6F66E1B9586B2003BD02A /* LigatureXcodePlugin.m in Sources */,
+				BF1A8F801BAA9C5100E51245 /* LPXcodeUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
