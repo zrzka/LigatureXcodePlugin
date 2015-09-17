@@ -18,14 +18,6 @@
 @import Cocoa;
 
 @interface DVTTextStorage : NSTextStorage
-- (void)invalidateLayoutForLineRange:(struct _NSRange)arg1;
-- (void)delayedInvalidateDisplayForLineRange:(struct _NSRange)arg1;
-- (void)invalidateDisplayForLineRange:(struct _NSRange)arg1;
-- (void)invalidateDisplayInRange:(struct _NSRange)arg1;
-- (void)updateAttributesInRange:(struct _NSRange)arg1;
-- (void)fixAttributesInRange:(struct _NSRange)arg1;
-- (void)fixSyntaxColoringInRange:(struct _NSRange)arg1;
-- (void)fixAttachmentAttributeInRange:(struct _NSRange)arg1;
 @end
 
 @interface DVTCompletingTextView : NSTextView
