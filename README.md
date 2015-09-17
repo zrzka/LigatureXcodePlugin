@@ -24,6 +24,11 @@ Xcode doesn't behave as expected.
 
 There's `Copy Files` - `Build Phase`, which automatically installs plugin.
 
+## Settings
+
+You can use `Edit` - `Ligature plug-in` menu to disable ligatures, enable
+default ligatures (initial) or enable all ligatures.
+
 ## Uninstallation
 
 Remove `LigatureXcodePlugin.xcplugin` from `~/Application Support/Developer/Shared/Xcode/Plug-ins`
