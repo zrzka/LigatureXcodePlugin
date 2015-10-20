@@ -40,7 +40,7 @@ You can use `Edit` - `Ligature plug-in` menu to disable ligatures, enable defaul
 
 ## Uninstallation
 
-Remove `LigatureXcodePlugin.xcplugin` from `~/Application\ Support/Developer/Shared/Xcode/Plug-ins`
+Remove `LigatureXcodePlugin.xcplugin` from `~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins`
 and restart Xcode.
 
 ## Written by
