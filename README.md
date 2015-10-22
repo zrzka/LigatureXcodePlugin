@@ -16,7 +16,7 @@ Xcode doesn't behave as expected.
 ## Requirements
 
 - OS X Yosemite or El Capitan
-- Xcode 7.0
+- Xcode 7.0, 7.1
 
 ## Installation
 
