@@ -16,7 +16,7 @@ Xcode doesn't behave as expected.
 ## Requirements
 
 * OS X Yosemite or El Capitan
-* Xcode 7.0, 7.1, 7.2
+* Xcode 7.0, 7.1, 7.2, 7.3 Beta
 * Font with ligatures support ([PragmataPro](http://www.fsd.it/fonts/pragmatapro.htm#.VjSznYRIi34), ...)
     * Default Xcode fonts like Menlo don't support ligatures 
 
