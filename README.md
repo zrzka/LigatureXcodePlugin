@@ -20,6 +20,9 @@ Xcode doesn't behave as expected.
 * Font with ligatures support ([PragmataPro](http://www.fsd.it/fonts/pragmatapro.htm#.VjSznYRIi34), ...)
     * Default Xcode fonts like Menlo don't support ligatures 
 
+### !!!
+
+**Plugins are not supported in Xcode8, but we can continue to use it by unsigning it as a workaround. [alcatraz/alcatraz#475](https://github.com/alcatraz/Alcatraz/issues/475)**
 
 ## Installation
 
