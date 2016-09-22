@@ -15,10 +15,11 @@ Xcode doesn't behave as expected.
 
 ## Requirements
 
-* OS X Yosemite or El Capitan
-* Xcode 7.0, 7.1, 7.2, 7.3, 8.0
+* OS X Yosemite, El Capitan or Sierra
+* Xcode 7.0, 7.1, 7.2, 7.3, 8.0(with [workaround](https://github.com/alcatraz/Alcatraz/issues/475))
 * Font with ligatures support ([PragmataPro](http://www.fsd.it/fonts/pragmatapro.htm#.VjSznYRIi34), ...)
     * Default Xcode fonts like Menlo don't support ligatures 
+
 
 ## Installation
 
