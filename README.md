@@ -15,10 +15,14 @@ Xcode doesn't behave as expected.
 
 ## Requirements
 
-* OS X Yosemite or El Capitan
-* Xcode 7.0, 7.1, 7.2, 7.3
+* OS X Yosemite, El Capitan or Sierra
+* Xcode 7.0, 7.1, 7.2, 7.3, 8.0(with [workaround](https://github.com/alcatraz/Alcatraz/issues/475))
 * Font with ligatures support ([PragmataPro](http://www.fsd.it/fonts/pragmatapro.htm#.VjSznYRIi34), ...)
     * Default Xcode fonts like Menlo don't support ligatures 
+
+### !!!
+
+**Plugins are not supported in Xcode8, but we can continue to use it by unsigning it as a workaround. [alcatraz/alcatraz#475](https://github.com/alcatraz/Alcatraz/issues/475)**
 
 ## Installation
 
