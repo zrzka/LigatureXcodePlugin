@@ -51,4 +51,4 @@ and restart Xcode.
 
 ## Written by
 
-- [Robert Vojta](http://github.com/robertvojta) ([@robertvojta](https://twitter.com/robertvojta))
+- [Robert Vojta](http://github.com/zrzka) ([@robertvojta](https://twitter.com/robertvojta))
