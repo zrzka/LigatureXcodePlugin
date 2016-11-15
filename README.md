@@ -1,4 +1,7 @@
-Quick hack to enable ligatures in the Xcode source code editor.
+# LigatureXcodePlugin
+
+Because Xcode 8 does support ligatures out of the box, there's no need to use this plug-in.
+Anyway, if you do use Xcode < 8, continue reading.
 
 ## Description
 
